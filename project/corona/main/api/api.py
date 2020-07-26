@@ -21,4 +21,7 @@ class API:
             print(response_dict['error']['info'])
         return []
 
+    def get_statistics(self):
+
+        return PRE_BASE_URL+self.country+POST_BASE_URL
 
