@@ -1,7 +1,7 @@
 import pytest
 import requests
 
-from language_sort.sorter.api.api import API
+from corona.main.api.api import API
 
 
 def test_send_request():

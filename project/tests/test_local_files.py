@@ -3,8 +3,8 @@ import shutil
 
 import pytest
 
-from language_sort.sorter.api.constants import NOT_LABELED_LANGUAGE
-from language_sort.sorter.local_files.local_files import LocalFiles
+from corona.main.api.constants import NOT_LABELED_LANGUAGE
+from corona.main.local_files.local_files import LocalFiles
 from tests.constants import BASE_DIR, IN_DIR, OUT_DIR
 
 
